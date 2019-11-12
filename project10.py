@@ -6,10 +6,12 @@
 def main():
     #a = File that contains the censored words
     #b = File that contains the words to censor
-    a = "Cursewords.txt"
-    b = "Sentence.txt"
-    #a = input("Enter the name of the censored words file: ")
-    #b = input("Enter the name of the file to censor: ")
+    
+    #used for editing purposes
+    #a = "Cursewords.txt"
+    #b = "Sentence.txt"
+    a = input("Enter the name of the censored words file: ")
+    b = input("Enter the name of the file to censor: ")
     
     #read file
     File = open(a ,"r")
